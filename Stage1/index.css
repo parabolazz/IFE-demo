@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+
+body{
+	background-color: rgb(222,222,222);
+	margin: 0;
+	padding: 0;
+	border:10px;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(51,51,51);
+	position: fixed;
+	top: 0;
+
+}
+
+ul{
+	list-style: none;
+}
+
+header ul{
+
+	position: absolute;
+	top: 5px;
+	right: 40px;
+	margin: 0;
+
+}
+
+header ul li{
+	display: inline-block;
+	padding: 5px;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding:10px;
+}
+
+header ul li a:hover{
+	color: gray;
+}
+h1{
+	margin: 0;	
+	padding: 15px;
+}
+h1 img{
+	width: 8%;
+	height: 8%;
+}
+
+p{
+	line-height: 1.7em;
+}
+
+.content{
+	margin-top: 90px;
+}
+.part1,.part2,.part3,.part4{
+	background-color: white;
+	max-width: 1600px;
+	margin:30px auto;
+	box-shadow: 2px 2px 3px 1px gray;
+	padding: 10px;
+}
+
+.authortime,h3{
+	color: gray;
+}
+
+.part3 ul li{
+	padding: 10px;
+	width: 400px;
+	border: 2px solid #B6B6B6;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.part3 ul li>img{
+	max-width: 400px;
+	padding: 10px 0;
+}
+
+.part4 table{
+	width: 80%;
+	margin:0 auto;
+	border-collapse: collapse;
+
+}
+
+.part4 tr td{
+	border: 1px solid #b6b6b6;	
+}
+.part4 table tr th{
+	background-color: #515151;
+	color: white;	
+
+}
+
+.part4 tfoot{
+	background-color: #B6B6B6;
+}
+
+.banner{
+	max-width: 1600px;
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	box-shadow: 2px 2px 3px 1px gray;
+}
+
+.banner form{
+	margin-left: 400px;
+}
+
+.banner table tr td{
+	padding: 5px;
+}
+
+.banner table tr .prompt{
+	color: gray;
+	font-size: 14px;
+}
+.banner table tr td:nth-child(2n+1){
+
+	text-align: right;
+}
+
+.banner button{
+	width: 80%;
+	height: 50px;
+	margin: 10px 150px;
+	border-radius: 10px;
+	background-color: rgb(28, 99, 221);
+	color: white;
+}
+
+.banner input::-webkit-input-placeholder{
+	font-size: 11px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	height: 100px;
+	width: 100%;
+}
+
+ footer p{
+	text-align: center;
+	padding-top: 40px;
+}
