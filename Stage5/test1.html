@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.banner{
+			width: 500px;
+			background-color: white;
+			padding: 10px;
+			box-shadow: 2px 2px 3px 1px gray;
+			text-align: center;
+		}
+
+		.banner form{
+			
+		}
+
+		.banner table tr td{
+			padding: 5px;
+		}
+
+		.banner table tr .prompt{
+			color: gray;
+			font-size: 14px;
+		}
+		.banner table tr td:nth-child(2n+1){
+
+			text-align: right;
+		}
+
+		.banner button{
+			width: 400px;
+			height: 50px;
+			margin: 0 auto;
+			border-radius: 10px;
+			background-color: rgb(28, 99, 221);
+			color: white;
+		}
+
+		.banner input::-webkit-input-placeholder{
+			font-size: 11px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="banner">
+		<h2>以后将成为侧栏的标题</h2>
+		<form method="post">
+			<table>
+				<tr>
+					<td>请输入注册邮箱：</td>
+					<td><input type="text" placeholder="like：user@gmail.com" ></input></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="prompt">邮箱请按照要求格式输入</td>
+				</tr>
+				<tr>
+					<td>请输入密码：</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>请再次输入密码：</td>
+					<td><input type="text" ></input></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="prompt">密码请为6-16位英文数字</td>
+				</tr>
+				<tr>
+					<td>性别：</td>
+					<td><input type="radio" name="sex" value="男">男</input><input type="radio" name="sex" value="男">女</input></td>
+				</tr>
+				<tr>
+					<td>城市：</td>
+					<td>
+						<select>
+							<option>北京</option>
+							<option>上海</option>
+							<option>广州</option>
+							<option>深圳</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>爱好：</td>
+					<td>
+						<input type="checkbox" name="hobby" value="篮球">篮球</input>
+						<input type="checkbox" name="hobby" value="唱歌">唱歌</input>
+						<input type="checkbox" name="hobby" value="打代码">打代码</input>
+						<input type="checkbox" name="hobby" value="健身">健身</input>	 
+					</td>
+				</tr>
+				<tr>
+					<td>个人简介：</td>
+					<td>
+						<textarea rows="3" cols="30" placeholder="在这里输入..."></textarea>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<button type="submit">确认提交</button>
+	</div>
+</body>
+</html>
