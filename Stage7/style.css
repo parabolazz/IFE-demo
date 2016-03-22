@@ -247,13 +247,13 @@ nav ul li:first-child{
 	display: inline-block;
 	padding: 10px 200px 10px 10px;
 	width: 237px;
-	height: 38.4px;
+	height: 37px;
 	background: red;
 }
 
 .select button{
 	width: 237px;
-	height: 37px;
+	height: 38.4px;
 	padding: 0;
 	border: 0;
 }
