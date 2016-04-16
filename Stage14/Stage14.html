@@ -32,7 +32,7 @@ var aqiData = [
   将空气质量指数大于60的城市显示到aqi-list的列表中
   */
   function compare(a,b){
-    return b[1]-a[1];
+    return a[1]-b[1];
   }
   aqiData.sort(compare);
 
