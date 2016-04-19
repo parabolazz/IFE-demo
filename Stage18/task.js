@@ -1,5 +1,4 @@
 
-// var aqiData = [];
 var ul = document.getElementsByTagName('ul')[0];
 
 function leftinoperat(){
@@ -7,14 +6,12 @@ function leftinoperat(){
 	if (num) {
 		var li = document.createElement("li");
 		li.innerHTML = num;
-		// aqiData.unshift(num);
 		ul.insertBefore(li , ul.firstChild);
 	}else alert("请输入数字！");
 }
 
 function leftoutoperat(){
 	if (ul.firstChild) {
-		// aqiData.shift(ul.firstChild.innerHTML);
 		ul.removeChild(ul.firstChild);
 	}else alert("请输入数字！");
 }
@@ -24,28 +21,21 @@ function rightinoperat(){
 	if (num) {
 		var li = document.createElement("li");
 		li.innerHTML = num;
-		// aqiData.push(num);
 		ul.appendChild(li);
 	}else alert("请输入数字！");
 }
 
 function rightoutoperat(){
 	if (ul.lastChild) {
-		// aqiData.pop(ul.lastChild.innerHTML);
 		ul.removeChild(ul.lastChild);
 	}else alert("请输入数字！");
 }
 
 function deloperat(e){	
-	// for (var i = 0; i <= aqiData.length - 1; i++) {
 	if (e.target.nodeName == "LI") {
 		alert(e.target.innerHTML);
 		e.target.parentNode.removeChild(e.target);
 	}
-	// 		alert(aqiData[i]);
-	// 		aqiData.splice(i,1);
-	// 	}				
-	// }
 }
 
 function init(){
