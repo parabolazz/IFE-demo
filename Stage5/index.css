@@ -57,7 +57,6 @@ p{
 }
 
 .content{
-	/*margin-top: 90px;*/
 	margin-right:540px; 
 }
 .part1,.part2,.part3,.part4{
@@ -122,8 +121,8 @@ p{
 	right: 0;
 }
 
-.banner form{
-	
+.banner h2{
+	text-align: center;
 }
 
 .banner table tr td{
@@ -147,10 +146,6 @@ p{
 	border-radius: 10px;
 	background-color: rgb(28, 99, 221);
 	color: white;
-}
-
-.banner input::-webkit-input-placeholder{
-	font-size: 11px;
 }
 
 footer{
