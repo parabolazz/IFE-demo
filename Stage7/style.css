@@ -75,7 +75,7 @@ nav ul a:hover{
 nav ul li:first-child{
 	padding-right: 75px;
 	padding-left:18px; 
-	background: url(login-logo.png) no-repeat  0% 50%;
+	background: url(img/login-logo.png) no-repeat  0% 50%;
 	background-size: 20px 20px;
 	font-weight: bold;
 }
@@ -238,9 +238,9 @@ nav ul li:first-child{
 	-moz-appearance:none;
     -webkit-appearance:none;
     border: 0;
-    /*background: url(select.png) no-repeat right center;*/
+    /*background: url(img/select.png) no-repeat right center;*/
     /*这里出现了一个问题，用上面那一行select的高度会比button小*/
-    background: url(select.png) no-repeat right #fff;
+    background: url(img/select.png) no-repeat right #fff;
     line-height: 37px;
 }
 
@@ -484,7 +484,7 @@ nav ul li:first-child{
 .join-bottom-left button{
 	border: none;
 	background-color: #fff;
-	background: url(more.jpg) no-repeat left;
+	background: url(img/more.jpg) no-repeat left;
 	padding: 5px 15px;
 	display: inline-block;
 	text-align: right;
