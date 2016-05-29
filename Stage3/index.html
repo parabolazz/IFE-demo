@@ -1,42 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>task103</title>
 	<style type="text/css">
 		.mainbody{
 			width: 100%;
 			min-height: 600px;
 			background-color: #eee;
-			padding: 20px;
 			border:1px solid #999;
-			position: relative;
 		}
 
 		.header{
 			width: 200px;
-			background-color: green;
-			position: absolute;
-			top: 20px;
-			left: 20px;
-			padding: 0;
-			margin: 0;
-
+			background-color: #4CAF50;
+			float: left;
+			margin-left: -100%;
 		}
 
-		.about{
+		.wrapper{
+			width: 100%;
+			float: left;
+		}
+
+		.wrapper .about{
 			height: 500px;
-			background-color: blue;
+			background-color: #2196F3;
 			margin: 0 140px 0 220px;
 		}
 
 		.logo{
 			width: 120px;
-			border: 1px solid #999;
-			background-color: red;
-			position: absolute;
-			top: 20px;
-			right: 20px;
+			background-color: #F44336;
+			float: left;
+			margin-left: -120px;
 		}
 
 		img{
@@ -56,13 +53,16 @@
 </head>
 <body>
 	<div class="mainbody">
+		<!-- 主体放在前面 -->
+		<div class="wrapper">
+			<div class="about"></div>
+		</div>
+		<!-- 双翼写在后面 -->
 		<div class="header">
 			<figure>
-				<!-- <figcaption>LIFE</figcaption> -->
 				<img class="mainlogo" src="lsk.jpg">
 			</figure>
-		</div>
-		<div class="about"></div>
+		</div>		
 		<div class="logo">
 			<figure>
 				<img src="lsk.jpg">
