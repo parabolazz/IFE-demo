@@ -1,6 +1,7 @@
 
 var ul = document.getElementsByTagName('ul')[0];
 
+//左侧进函数
 function leftinoperat(){
 	var num = document.getElementById("inputnum").value.trim();
 	if (num) {
@@ -10,12 +11,14 @@ function leftinoperat(){
 	}else alert("请输入数字！");
 }
 
+//左侧出函数
 function leftoutoperat(){
 	if (ul.firstChild) {
 		ul.removeChild(ul.firstChild);
 	}else alert("请输入数字！");
 }
 
+//右侧进函数
 function rightinoperat(){
 	var num = document.getElementById("inputnum").value.trim();
 	if (num) {
@@ -25,12 +28,14 @@ function rightinoperat(){
 	}else alert("请输入数字！");
 }
 
+//右侧出函数
 function rightoutoperat(){
 	if (ul.lastChild) {
 		ul.removeChild(ul.lastChild);
 	}else alert("请输入数字！");
 }
 
+//删除函数
 function deloperat(e){	
 	if (e.target.nodeName == "LI") {
 		alert(e.target.innerHTML);

@@ -45,8 +45,6 @@ function addBtnHandle() {
   renderAqiList();
 }
 
-
-
 function init () {
 //添加回车事件	
 	document.onkeydown=keyListener; 

@@ -3,10 +3,10 @@ function addhobbies(e){
 	var num = document.getElementById("hobbies").value.trim();
 	var a = num.replace(/[^a-zA-Z\d\u4e00-\u9fa5]+/g, " ").split(" ");
 	var linodes = this.nextElementSibling.childNodes;
+	var li = document.createElement("li");
 	if (num) {
 		//去重
 		for (var i = 0; i < a.length; i++) {
-			var li = document.createElement("li");
 			for (var j = 0; j < linodes.length; j++) {
 				if (linodes[j].innerHTML == a[i] ) { 
 					alert("输入的爱好有重复！");
